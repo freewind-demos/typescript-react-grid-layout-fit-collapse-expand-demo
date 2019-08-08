@@ -1,3 +1,17 @@
 .react-grid-item {
-  background-color: #DDDDDD;
+    background-color: #DDDDDD;
 }
+
+.layout-info {
+    width: 600px;
+    height: 60px;
+}
+
+.panel {
+}
+
+.panel .header {
+    cursor: pointer;
+    background-color: green;
+}
+
