@@ -25,6 +25,9 @@ export default function Hello() {
     const newLayout = layout.map(item => {
       if (item.i === layoutKey) {
         if (showBody) {
+          // Notice:
+          // we need to create an layout object to make it work,
+          // instead of modifying existing one
           return changeWidthTo(item, 3);
         } else {
           return changeWidthTo(item, 1);
